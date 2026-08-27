@@ -35,4 +35,3 @@
 `order_items` คือรายการอาหารในบิล: `id`, `order_id`, `menu_name`, `quantity`, `price`
 
 `fetchDashboardData(startDate, endDate)` อยู่ใน `public/dashboard.js` และใช้ `.gte('created_at', ...)` กับ `.lte('created_at', ...)` เพื่อให้ตัวกรองช่วงวันที่ดึงข้อมูลจาก Supabase แบบ dynamic.
-
