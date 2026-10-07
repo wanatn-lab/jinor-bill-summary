@@ -241,10 +241,10 @@
       const row = document.createElement("tr");
       row.className = "hover:bg-slate-50/80";
       row.innerHTML = `
-        <td class="px-5 py-4"><span class="grid h-8 w-8 place-items-center rounded-lg text-sm font-bold ${index < 3 ? "bg-brand-100 text-brand-700" : "bg-slate-100 text-slate-600"}">${index + 1}</span></td>
-        <td class="px-5 py-4 font-semibold text-slate-800">${escapeHtml(menu.name)}</td>
-        <td class="px-5 py-4 text-right font-medium tabular-nums text-slate-700">${formatNumber.format(menu.quantity)}</td>
-        <td class="px-5 py-4 text-right font-semibold tabular-nums text-emerald-700">${formatCurrency.format(menu.revenue)}</td>
+        <td class="px-3 py-4 sm:px-5"><span class="grid h-8 w-8 place-items-center rounded-lg text-sm font-bold ${index < 3 ? "bg-brand-100 text-brand-700" : "bg-slate-100 text-slate-600"}">${index + 1}</span></td>
+        <td class="break-words px-3 py-4 font-semibold text-slate-800 [overflow-wrap:anywhere] sm:px-5">${escapeHtml(menu.name)}</td>
+        <td class="px-3 py-4 text-right font-medium tabular-nums sm:px-5 text-slate-700">${formatNumber.format(menu.quantity)}</td>
+        <td class="px-3 py-4 text-right font-semibold tabular-nums sm:px-5 text-emerald-700">${formatCurrency.format(menu.revenue)}</td>
       `;
       elements.leaderboardBody.append(row);
     });

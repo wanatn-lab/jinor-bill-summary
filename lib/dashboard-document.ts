@@ -115,15 +115,15 @@ export const dashboardDocument = String.raw`<!doctype html>
             </div>
             <p id="menu-count" class="text-sm font-medium text-slate-500"></p>
           </div>
-          <div class="overflow-x-auto">
-            <table class="w-full min-w-[560px] text-left">
+          <div>
+            <table class="w-full table-fixed text-left">
               <caption class="sr-only">รายชื่อเมนูขายดี จำนวนที่ขาย และรายได้</caption>
               <thead class="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                 <tr>
-                  <th scope="col" class="w-20 px-5 py-3 font-semibold">อันดับ</th>
-                  <th scope="col" class="px-5 py-3 font-semibold">เมนู</th>
-                  <th scope="col" class="px-5 py-3 text-right font-semibold">จำนวนที่ขาย</th>
-                  <th scope="col" class="px-5 py-3 text-right font-semibold">รายได้รวม</th>
+                  <th scope="col" class="w-14 px-3 py-3 font-semibold sm:w-20 sm:px-5">อันดับ</th>
+                  <th scope="col" class="px-3 py-3 font-semibold sm:px-5">เมนู</th>
+                  <th scope="col" class="w-16 px-3 py-3 text-right font-semibold sm:w-36 sm:px-5"><span class="sm:hidden">จำนวน</span><span class="hidden sm:inline">จำนวนที่ขาย</span></th>
+                  <th scope="col" class="w-24 px-3 py-3 text-right font-semibold sm:w-40 sm:px-5">รายได้รวม</th>
                 </tr>
               </thead>
               <tbody id="leaderboard-body" class="divide-y divide-slate-100"></tbody>
