@@ -1,7 +1,7 @@
 // Service Worker — Restaurant Sales Dashboard PWA
 // วางไฟล์นี้ไว้ที่ root ของเว็บ (path: /sw.js)
 
-const CACHE_NAME = "sales-dash-v2";
+const CACHE_NAME = "sales-dash-v3";
 
 // App shell: ไฟล์ที่ทำให้เปิดแอปได้แม้เน็ตหลุด (ไม่รวมข้อมูลยอดขายที่เป็น dynamic)
 const APP_SHELL = [
