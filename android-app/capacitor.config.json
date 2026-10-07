@@ -1,0 +1,9 @@
+{
+  "appId": "com.jinko.salesdashboard",
+  "appName": "Jinko Sales",
+  "webDir": "www",
+  "server": {
+    "url": "https://restaurant-sales-dashboard-01a003.wanat-n.chatgpt.site/dashboard",
+    "allowNavigation": ["restaurant-sales-dashboard-01a003.wanat-n.chatgpt.site"]
+  }
+}
